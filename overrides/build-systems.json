@@ -23904,6 +23904,20 @@
   "tappy": [
     "setuptools"
   ],
+  "tarina": [
+    {
+      "buildSystem": "pdm-pep517",
+      "until": "0.1.2"
+    },
+    {
+      "buildSystem": "setuptools",
+      "from": "0.1.2"
+    },
+    {
+      "buildSystem": "wheel",
+      "from": "0.1.2"
+    }
+  ],
   "tarsafe": [
     "poetry"
   ],
